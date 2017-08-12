@@ -1,0 +1,180 @@
+.header{
+    padding: 1rem 0 1rem 0;
+    width:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    right: 0;
+    background-color: #5fc0cd;
+    height:2rem;
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    display: block;
+}
+.footer{
+    width:100%;
+    position: fixed;
+    padding: 1rem 0 1rem 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 2.1rem;
+    overflow-x: hidden;
+    display: flex;
+}
+.btm{
+    width:50%;
+    color:#5fc0cd;
+    font-size: 1.5rem;
+    background-color: white;
+    box-shadow: inset 0 0 0 2px #5fc0cd;
+    outline: none;
+    border:none;
+    margin-right:0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+    flex: 1;
+    cursor:pointer;
+}
+.btc{
+    width:50%;
+    color:white;
+    font-size: 1.5rem;
+    background-color: #5fc0cd;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    flex: 1;
+    cursor: pointer;
+}
+body{
+    margin: 0;
+    padding:0;
+}
+.main{
+    width:100%;
+    position: absolute;
+    top:4rem;
+    left:0;
+    padding-top: 0rem;
+}
+.content{
+    width:100%;
+    height:auto;
+}
+.mainimg{
+    width:100%;
+    padding-top: 10.25rem;
+    background-image: url(/../Page/main.png);
+}
+.skill{
+    width:100%;
+    height: 2.5rem;
+    margin: 1rem 0 1.75rem 0;
+    padding-left: 0.5rem;
+    line-height: 2rem;
+    border-bottom:1px solid #ccc;
+}
+.span{
+    font-size: 1rem;
+    border-left:3px solid #5fc0cd;
+    padding-left: 0.5rem;
+}
+.a{
+    width:2rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    background-image: url(/../Page/start.png);
+    background-repeat: no-repeat;
+    line-height: 1.25rem;
+    margin-right: 0;
+    float: left;
+}
+.b{
+    width:3rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    background-image: url(/../Page/start.png);
+    background-repeat: no-repeat;
+    line-height: 1.25rem;
+    float: left;
+    margin-left: 0.5rem;
+}
+.big{
+    width:100%;
+    height:3rem;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 1rem;
+    margin-bottom: 1.75rem;
+}
+.age{
+    width:100%;
+    height:3rem;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 1rem;
+    margin-bottom: 1.75rem;
+}
+.age_a{
+    font-size: 1rem;
+    color:#cccccc;
+    width:4rem;
+    padding-left: 1rem;
+    float:left;
+    border-right:1px solid #cccccc;
+    padding-right: 1rem;
+}
+.age_b{
+    font-size: 1rem;
+    width:4rem;
+    padding-left: 1rem;
+    float:left;
+    padding-right: 1rem;
+}
+.worktime{
+    width:100%;
+    height:3rem;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 1rem;
+    margin-bottom: 1.75rem;
+}
+.wta{
+    font-size: 1rem;
+    color:#cccccc;
+    width:4rem;
+    padding-left: 1rem;
+    float:left;
+    border-right:1px solid #cccccc;
+    padding-right: 1rem;
+}
+.wtb{
+    font-size: 1rem;
+    width:4rem;
+    padding-left: 1rem;
+    float:left;
+    padding-right: 1rem;
+}
+
+.serverprice{
+    font-size: 1rem;
+    width:5rem;
+    padding-left: 1rem;
+    float:left;
+    padding-right: 1rem;
+    color:red;
+}
+.introduce{
+    width:100%;
+    height:3rem;
+    border-bottom: 1px solid #cccccc;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+.ib{
+    font-size: 1px;
+    width:12rem;
+    padding-left: 1rem;
+    float:left;
+    line-height: 1rem;
+}
