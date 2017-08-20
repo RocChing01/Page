@@ -74,6 +74,7 @@ main{
     padding-top: 10.25rem;
     background-image: url(/../Page/main.png);
     background-repeat: no-repeat;
+    position: relative;
 }
 .skill{
     width:100%;
@@ -156,4 +157,37 @@ main{
 .p{
     margin:0;
 }
+.head{
+    background-image: url(/../Page/head.png);
+    position: absolute;
+    left:1rem;
+    top:25%;
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.font1{
+    font-size: 0.87rem;
+    color:white;
+    position:absolute;
+    left:7.35rem;
+    top:38.5%;
 
+}
+.local{
+    background-image: url(/../Page/local.png);
+    position: absolute;
+    left:7.35rem;;
+    top:53%;
+    width: 11px;
+    height:16px;
+    background-size: cover;
+}
+.font2{
+    font-size: 0.79rem;
+    color:white;
+    position:absolute;
+    left:8.5rem;
+    top:53%;
+}
